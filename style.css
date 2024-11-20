@@ -1,0 +1,17 @@
+.section{
+  width: 100vw;
+  height: 100vh;
+  position: relative
+}
+
+#sec1 {
+  background-color: aliceblue;
+}
+
+#sec2 {
+  background-color: aqua;
+}
+
+#sec3 {
+  background-color: lightskyblue;
+}
