@@ -1,11 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+
+
 .section{
   width: 100vw;
   height: 100vh;
-  position: relative
+  position: relative;
 }
 
 #sec1 {
-  background-color: aliceblue;
+  background-color: lightgreen;
 }
 
 #sec2 {
@@ -17,36 +22,83 @@
  }
  
  #Title {
-   font-family:"roboto";
+   font-family:"Roboto";
    font-weight: bold;
    color: white;
    font-size:4vw;
-   top: 100px;
+   top: 80px;
    position: absolute;
    margin-left: 35px;
  }
- #SharingTextBox1 {
+
+ #Container {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; /* Center the squares horizontally */
+  gap: 20px; /* Add space between squares */
+  height: 38vw; /* Make the container full height of the viewport */
+  width:30vw;
+  justify-content:center; /* Center the squares vertically within the container */
+ /*background-color: red;*/ 
+  padding:5px;
+  position:absolute;
+  right: 5vw;
+  top: 22vh;
+}
+
+#SharingBox1{
+  width: 25vw; 
+  height: 20vw; 
+  max-width: 590px;
+  max-height:395px;
+  border-radius: 25%;
+  background-color: #5D8DF4;
+  justify-content: center; /* Horizontally center the text */
+  align-content: center;    /* Vertically center the text */
+  font-size: 1.5vw;              /* Font size based on viewport width */
+  text-align: center; 
+  padding: 7px;
+  font-family:"Klee One";
+  color: white;
+}
+
+#SharingBox2{
+  width: 25vw; 
+  height: 12vw; 
+  max-width: 590px;
+  max-height:220px;
+  border-radius: 25%;
+  background-color: #5D8DF4;
+  justify-content: center; /* Horizontally center the text */
+  align-content: center;    /* Vertically center the text */
+  font-size: 1.5vw;              /* Font size based on viewport width */
+  text-align: center; 
+  padding: 7px;
+  font-family:"Klee One";
+  color: white;
+}
+ /*#SharingTextBox1 {
    position: absolute;
    top: 270px;
    right: 170px;
-   width:30vw;
+   width:20vw;
    max-width: 590px;
    max-height:395px;
-   height: 26vw;
+   height: 20vw;
    border-radius: 25%;
    background-color: #5D8DF4;
- }
- #SharingTextBox2 {
-   position: absolute;
-   top: 30vw;
-   right: 0px;
-   width:30vw;
+ }*/
+ /*#SharingTextBox2 {
+   width: 20vw;
    max-width: 590px;
    max-height:205px;
    height: 24vw;
    border-radius: 25%;
    background-color: #5D8DF4;
- }
+   position: relative;
+   right: 0px;
+   margin-bottom: 12vh;
+ }*/
  
  
  /*#SharingText1 {
