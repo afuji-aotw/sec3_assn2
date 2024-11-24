@@ -268,3 +268,32 @@ label:active:after {
   margin-left: 10vw;
   top: 25vh;
 }
+
+
+#sec4_1{
+    width: 29vw; 
+    height: 17vw; 
+    border-radius: 25%;
+    background-color: #2596be;
+    justify-content: center; /* Horizontally center the text */
+    align-content: center;    /* Vertically center the text */
+    font-size: 1.35vw;              /* Font size based on viewport width */
+    text-align: center; 
+    padding: 7px;
+    font-family:"Klee One";
+    color: white;
+  }
+#sec4_2{
+    width: 29vw; 
+    height: 15vw; 
+    border-radius: 25%;
+    background-color: #2596be;
+    justify-content: center; /* Horizontally center the text */
+    align-content: center;    /* Vertically center the text */
+    font-size: 2.5vw;              /* Font size based on viewport width */
+    text-align: center; 
+    padding: 7px;
+    font-family:"Roboto";
+     font-weight: bold;
+    color: white;
+  }
