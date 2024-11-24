@@ -139,7 +139,7 @@ h1 {
 
 .imagerow p {
   margin-top: 5vh;
-  max-width: 30%;
+  max-width: 25%;
   text-align: center;
 }
 
@@ -163,7 +163,6 @@ h1 {
   font-weight: 500;
   font-style: normal;
   font-size: clamp(1rem, 1.5rem, 2rem);
-  padding-bottom: 5vw;
   position: relative;
   text-align: center;
   justify-content: center;
