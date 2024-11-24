@@ -52,19 +52,19 @@
   padding:5px;
   position:absolute;
   right: 5vw;
-  top: 22vh;
+  top: 18vh;
 }
 
 #SharingBox1{
-  width: 25vw; 
-  height: 20vw; 
+  width: 23vw; 
+  height: 18vw; 
   max-width: 590px;
   max-height:395px;
   border-radius: 25%;
   background-color: #5D8DF4;
   justify-content: center; /* Horizontally center the text */
   align-content: center;    /* Vertically center the text */
-  font-size: 1.5vw;              /* Font size based on viewport width */
+  font-size: 1.3vw;              /* Font size based on viewport width */
   text-align: center; 
   padding: 7px;
   font-family:"Klee One";
@@ -72,15 +72,15 @@
 }
 
 #SharingBox2{
-  width: 25vw; 
-  height: 12vw; 
+  width: 23vw; 
+  height: 10vw; 
   max-width: 590px;
   max-height:220px;
   border-radius: 25%;
   background-color: #5D8DF4;
   justify-content: center; /* Horizontally center the text */
   align-content: center;    /* Vertically center the text */
-  font-size: 1.5vw;              /* Font size based on viewport width */
+  font-size: 1.3vw;              /* Font size based on viewport width */
   text-align: center; 
   padding: 7px;
   font-family:"Klee One";
@@ -91,8 +91,8 @@
   flex-direction: column; 
   align-items: center; /* Center the squares horizontally */
   gap: 20px; /* Add space between squares */
-  height: 35vw; /* Make the container full height of the viewport */
-  width:50vw;
+  height: 32vw; /* Make the container full height of the viewport */
+  width:47vw;
   justify-content:center; /* Center the squares vertically within the container */
   /*background-color: red*/ 
   padding:5px;
@@ -230,21 +230,21 @@ label:active:after {
 }
 
 #Bubble1{
-  width: 33vw; 
-  height: 22vw; 
+  width: 29vw; 
+  height: 17vw; 
   border-radius: 25%;
   background-color: #F8C5C5;
   justify-content: center; /* Horizontally center the text */
   align-content: center;    /* Vertically center the text */
-  font-size: 1.5vw;              /* Font size based on viewport width */
+  font-size: 1.35vw;              /* Font size based on viewport width */
   text-align: center; 
   padding: 7px;
   font-family:"Klee One";
   color: white;
 }
 #Bubble2{
-  width: 33vw; 
-  height: 22vw; 
+  width: 29vw; 
+  height: 15vw; 
   border-radius: 25%;
   background-color: #F8C5C5;
   justify-content: center; /* Horizontally center the text */
@@ -260,7 +260,7 @@ label:active:after {
 
 
 #moreicloudneeded{
-  width: 35vw;
+  width: 32vw;
   border-radius: 15%;
   position: absolute;
   margin-left: 10vw;
