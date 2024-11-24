@@ -86,6 +86,20 @@
   font-family:"Klee One";
   color: white;
 }
+#Container2 {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; /* Center the squares horizontally */
+  gap: 20px; /* Add space between squares */
+  height: 35vw; /* Make the container full height of the viewport */
+  width:50vw;
+  justify-content:center; /* Center the squares vertically within the container */
+  /*background-color: red*/ 
+  padding:5px;
+  position:absolute;
+  left: 5vw;
+  top: 24vh;
+}
 
 body {
   overflow-x: hidden;
