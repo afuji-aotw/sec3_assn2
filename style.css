@@ -13,7 +13,7 @@
 }
 
 #sec2 {
-  background-color: aqua;
+  background-color: 9EE4CF;
 }
 
 #sec3 {
@@ -213,4 +213,42 @@ label:active:after {
     border-radius: 4.5vw;
     position: relative;
   }
+}
+
+#Bubble1{
+  width: 33vw; 
+  height: 22vw; 
+  border-radius: 25%;
+  background-color: #F8C5C5;
+  justify-content: center; /* Horizontally center the text */
+  align-content: center;    /* Vertically center the text */
+  font-size: 1.5vw;              /* Font size based on viewport width */
+  text-align: center; 
+  padding: 7px;
+  font-family:"Klee One";
+  color: white;
+}
+#Bubble2{
+  width: 33vw; 
+  height: 22vw; 
+  border-radius: 25%;
+  background-color: #F8C5C5;
+  justify-content: center; /* Horizontally center the text */
+  align-content: center;    /* Vertically center the text */
+  font-size: 2.5vw;              /* Font size based on viewport width */
+  text-align: center; 
+  padding: 7px;
+  font-family:"Roboto";
+   font-weight: bold;
+  color: white;
+}
+
+
+
+#moreicloudneeded{
+  width: 35vw;
+  border-radius: 15%;
+  position: absolute;
+  margin-left: 10vw;
+  top: 25vh;
 }
