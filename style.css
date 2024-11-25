@@ -15,7 +15,7 @@ body {
 }
 
 #sec2 {
-  background-color: 9EE4CF;
+  background-color: #9EE4CF;
 }
 
 #sec3 {
@@ -47,14 +47,13 @@ body {
   flex-direction: column; 
   align-items: center; /* Center the squares horizontally */
   gap: 20px; /* Add space between squares */
-  height: 38vw; /* Make the container full height of the viewport */
+  height: 100vh; /* Make the container full height of the viewport */
   width:30vw;
   justify-content:center; /* Center the squares vertically within the container */
  /*background-color: red;*/ 
   padding:5px;
   position:absolute;
   right: 5vw;
-  top: 18vh;
 }
 
 #SharingBox1{
@@ -271,7 +270,7 @@ label:active:after {
 
 #sec4_1{
     width: 29vw; 
-    height: 17vw; 
+    height: 20vh; 
     border-radius: 25%;
     background-color: #2596be;
     justify-content: center; /* Horizontally center the text */
@@ -284,15 +283,57 @@ label:active:after {
   }
 #sec4_2{
     width: 29vw; 
-    height: 15vw; 
+    height: 20vh; 
     border-radius: 25%;
     background-color: #2596be;
     justify-content: center; /* Horizontally center the text */
     align-content: center;    /* Vertically center the text */
-    font-size: 2.5vw;              /* Font size based on viewport width */
+    font-size: 2vw;              /* Font size based on viewport width */
     text-align: center; 
     padding: 7px;
-    font-family:"Roboto";
+    font-family:"Klee One";
      font-weight: bold;
     color: white;
   }
+
+#tagline {
+  font-family:"Roboto";
+  color: #01737d;
+  font-weight: bold;
+  font-size:3vw;
+  top: 80vh;
+  position: relative;
+  margin-left: 30vw;
+}
+
+#Container1 {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; /* Center the squares horizontally */
+  gap: 20px; /* Add space between squares */
+  height: 100vh; /* Make the container full height of the viewport */
+  width:30vw;
+  justify-content:center; /* Center the squares vertically within the container */
+ /*background-color: red;*/ 
+  padding:5px;
+  position:absolute;
+  right: 5vw;
+}
+
+#divider_2_3 {
+  height: 20vh;
+  width: 100vw;
+  background-image: linear-gradient(#9EE4CF, #54DCB7);
+}
+
+#divider_3_4 {
+  height: 20vh;
+  width: 100vw;
+  background-image: linear-gradient(#54DCB7, #ADEAD6);
+}
+
+#divider_4_5 {
+  height: 20vh;
+  width: 100vw;
+  background-image: linear-gradient(#ADEAD6, #6ee6ce);
+}
