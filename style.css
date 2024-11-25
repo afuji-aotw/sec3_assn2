@@ -11,7 +11,11 @@ body {
 }
 
 #sec1 {
-  background-color: lightgreen;
+  background-color: #8fcab9;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
 }
 
 #sec2 {
@@ -320,6 +324,11 @@ label:active:after {
   right: 5vw;
 }
 
+#divider_1_2 {
+  height: 20vh;
+  width: 100vw;
+  background-image: linear-gradient(#8fcab9, #9EE4CF);
+}
 #divider_2_3 {
   height: 20vh;
   width: 100vw;
@@ -336,4 +345,17 @@ label:active:after {
   height: 20vh;
   width: 100vw;
   background-image: linear-gradient(#ADEAD6, #6ee6ce);
+}
+
+#sec1_img {
+  width: 70vw;
+  height: auto;
+  position:relative;
+}
+
+#sec1_center {
+  width: 90vw;
+  height: auto;
+  background-image: url("./img/sec1.png");
+
 }
